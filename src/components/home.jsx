@@ -8,6 +8,7 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 import { ReactTyped } from "react-typed";
+import logo from "../../public/logo.png"
 
 const Home = () => {
   return (
@@ -86,7 +87,7 @@ const Home = () => {
           <div className="md:w-1/2 text-center order-1 md:order-2">
             <div className="md:w-80 bg-gradient-to-r from-yellow-50 to-indigo-600 rounded-full mx-auto mt-4">
               <img
-                src="src\assets\pngtree-masked-hackers-png-image_3290675-Photoroom.png"
+                src={logo}
                 alt=""
               />
             </div>

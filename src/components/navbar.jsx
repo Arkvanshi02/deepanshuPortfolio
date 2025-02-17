@@ -3,6 +3,7 @@ import { TiThMenu } from "react-icons/ti";
 import { MdOutlineClose } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-scroll";
+import logo from "../../public/logo.png"
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
         {/* Logo & Name */}
         <div className="flex space-x-3 items-center">
           <img
-            src="/src/assets/pngtree-masked-hackers-png-image_3290675-Photoroom.png"
+            src={logo}
             className="h-16 w-16"
             alt="Logo"
           />
