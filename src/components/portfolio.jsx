@@ -3,7 +3,7 @@ import mongo from "../../public/mongodb.gif";
 import node from "../../public/Nodejs.png";
 import express from "../../public/express-js.png";
 import reactjs from "../../public/reactjs.png";
-import java from "../../public/java-Logo.png";
+import javaa from "../../public/javalogo.jpg";
 import python from "../../public/python.webp";
 
 const Portfolio = () => {
@@ -30,8 +30,8 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      logo: java,
-      name: "Java",
+      logo: javaa,
+      name: "javaa",
     },
     {
       id: 6,
